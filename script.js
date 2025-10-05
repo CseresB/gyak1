@@ -14,7 +14,7 @@ let p2 = document.getElementById("p2");
 p2.textContent="Changed content";
 }
 
-function processFormData{
+function processFormData(){
   //Access the form
   let form = document.getElementById("myForm");
   //Access the elements by name and get values
