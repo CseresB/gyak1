@@ -21,8 +21,11 @@ function processFormData(){
   let city = form.elements.city;
   let country = form.elements.country;
 
+console.log(city.value);
+console.log(country.value);
+
   insertData(city,country);
-  console.log(insertData);
+  
 
   //clear the input fields
   document.getElementById("city").values = '';
