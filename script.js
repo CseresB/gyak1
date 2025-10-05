@@ -11,5 +11,5 @@ console.log(y);
 
 function changeContent(){
 let p2 = document.getElementById("p2");
-p2.textContent="Changed content"
+p2.textContent="Changed content";
 }
