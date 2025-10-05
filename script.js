@@ -14,5 +14,8 @@ let p2 = document.getElementById("p2");
 p2.textContent="Changed content";
 }
 
+
+/*
 let userName = prompt("Please enter your username");
 document.getElementById('userName').textContent = userName;
+*/
