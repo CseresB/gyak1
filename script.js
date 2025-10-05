@@ -21,8 +21,8 @@ function processFormData(){
   let city = form.elements.city;
   let country = form.elements.country;
 
-console.log(city.value);
-console.log(country.value);
+  alert(city.value);
+  alert(country.value);
 
   insertData(city,country);
   
