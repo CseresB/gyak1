@@ -35,7 +35,13 @@ function greet(){
   alert("Welcome "+name+"!");
 }
 
-greet();
+let x = confirm("Proceed payment?");
+console.log(x)
+
+//greet();
+
+
+
 /*
 let userName = prompt("Please enter your username");
 document.getElementById('userName').textContent = userName;
