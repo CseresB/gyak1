@@ -29,6 +29,13 @@ function processFormData(){
   document.getElementById("city").values = '';
   document.getElementById("country").values='';
 }
+
+function greet(){
+  let name = prompt();
+  alert("Welcome "+name+"!");
+}
+
+greet();
 /*
 let userName = prompt("Please enter your username");
 document.getElementById('userName').textContent = userName;
