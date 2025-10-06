@@ -48,9 +48,10 @@ function processFormData(){
   let cardNumber = form.elements.number.value;
   let holder = form.elements.holder.vale;
   let method = form.elements.pay.vale;
+
+  console.log(cardNumber + " " + holder+ " " + method);
 }
 
-console.log(cardNumber + " " + holder+ " " + method);
 
 /*
 let x = confirm("Proceed payment?");
