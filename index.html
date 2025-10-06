@@ -25,7 +25,7 @@
         <input type="text" id="country"><br><br>
         <input type="submit">
     </form>
-
+<!--
     <div>
         <h2> Database simulation</h2>
         <table id="dataTable">
@@ -33,15 +33,33 @@
                 <th></th>
                 <th></th>
             </tr>
-
+        -->
         </table>
     </div>
-   
+   <br><br>
     <form>
         <label for="c1"> Tick this box!</form>
         <input type="checkbox" id="c1"><br><br>
-        <input type="button" onclick="checkTicked()" value="Check if ticked">
-        
+        <input type="button" onclick="checkTicked()" value="Check if ticked">        
+    </form>
+
+    <br><br>
+    <h2>Registration form</h2>
+    <form>
+        <label for="number">Card number: </label>
+        <input type="text" id="number" name="number"><br>
+        <label for="holder">Card holder's name: </label>
+        <input type="text" id="holder" name="holder"><br><br>
+
+        <p>Payment merhod: </p>
+        <input type="radio" id="r1" name="pay" value="cahe">
+        <label for="r1">Cash</label>
+        <input type="radio" id="r1" name="pay" value="card">
+        <label for="r2">Card</label>
+        <input type="radio" id="r3" name="pay" value="credit">
+        <label for="r3">Credit</label><br><br>
+
+        <input type="button" onclick="processFormData()" value="Submit">
     </form>
 
     <script src="script.js"></script>

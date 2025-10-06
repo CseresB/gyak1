@@ -38,7 +38,7 @@ function greet(){
 
 function checkTicked(){
   let box = document.getElementById("c1");
-  console.log(box.checked+box.value);
+  console.log(box.checked);
 }
 
 //greet();
