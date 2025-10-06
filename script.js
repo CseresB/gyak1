@@ -22,7 +22,7 @@ function processFormData(){
   let country = form.elements.country;
 
 
-  insertData(city,country);
+  console.log(city,country);
   
 
   //clear the input fields
@@ -43,10 +43,20 @@ function checkTicked(){
 
 //greet();
 
+//payment form
+function processFormData(){
+  let cardNumber = form.elements.number.value;
+  let holder = form.elements.holder.vale;
+  let method = form.elements.pay.vale;
+}
+
+console.log(cardNumber + " " + holder+ " " + method);
+
 /*
 let x = confirm("Proceed payment?");
 console.log(x)
 */
+
 
 /*
 let userName = prompt("Please enter your username");
