@@ -30,17 +30,23 @@ function processFormData(){
   document.getElementById("country").values='';
 }
 
+
 function greet(){
   let name = prompt();
   alert("Welcome "+name+"!");
 }
 
-let x = confirm("Proceed payment?");
-console.log(x)
+function checkTicked(){
+  let box = document.getElementById("c1");
+  console.log(box.checked+box.value);
+}
 
 //greet();
 
-
+/*
+let x = confirm("Proceed payment?");
+console.log(x)
+*/
 
 /*
 let userName = prompt("Please enter your username");
