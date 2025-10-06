@@ -45,6 +45,8 @@ function checkTicked(){
 
 //payment form
 function processFormData(){
+  let form = document.getElementById("myForm2");
+
   let cardNumber = form.elements.number.value;
   let holder = form.elements.holder.value;
   let method = form.elements.pay.value;
